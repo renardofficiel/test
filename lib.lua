@@ -716,7 +716,7 @@ function M:CreateTab(aY, aZ)
 		local bs = az("TextLabel", {
 			Name = "Label",
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			BackgroundTransparency = 1,
 			Size = F(0, 300, 0, 20),
 			Font = Enum.Font.GothamBold,
@@ -738,7 +738,7 @@ function M:CreateTab(aY, aZ)
 		local bw = az("ImageButton", {
 			Name = bv,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 35)
 		})
 		local bx = az("TextLabel", {
@@ -780,7 +780,7 @@ function M:CreateTab(aY, aZ)
 		local bA = az("Frame", {
 			Name = bz,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 35)
 		})
 		local bB = az("TextLabel", {
@@ -844,7 +844,7 @@ function M:CreateTab(aY, aZ)
 		local bF = az("Frame", {
 			Name = KeybindName,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 35)
 		})
 		local bG = az("TextLabel", {
@@ -907,7 +907,7 @@ function M:CreateTab(aY, aZ)
 		local bL = az("Frame", {
 			Name = bJ,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 35),
 			AutomaticSize = Enum.AutomaticSize.Y
 		})
@@ -954,7 +954,7 @@ function M:CreateTab(aY, aZ)
 		local bS = az("Frame", {
 			Name = bR,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			BackgroundTransparency = 1,
 			Size = F(0, 300, 0, 35)
 		})
@@ -987,7 +987,7 @@ function M:CreateTab(aY, aZ)
 		local bY = az("Frame", {
 			Name = bV,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 35)
 		})
 		local bZ = az("TextLabel", {
@@ -1097,7 +1097,7 @@ function M:CreateTab(aY, aZ)
 		local ce = az("ImageButton", {
 			Name = cc,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 35),
 			AutomaticSize = Enum.AutomaticSize.Y
 		})
@@ -1249,7 +1249,7 @@ function M:CreateTab(aY, aZ)
 		local ce = az("ImageButton", {
 			Name = cc,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 35),
 			AutomaticSize = Enum.AutomaticSize.Y
 		})

@@ -1688,7 +1688,7 @@ function M:Init()
 			aF(aR, 20)
 			aS.Visible = true;
 			aR.Visible = true;
-			an.Text = "Symphony Hub - " .. U;
+			an.Text = "Symphony Hub|Fixed by @renardofficiel1 - " .. U;
 			aR.MouseButton1Click:Connect(function()
 				Y("UI_Click")
 				if not R then

@@ -335,7 +335,7 @@ local Gui = az("ScreenGui", {
 local aR = az("TextButton", {
 	Name = "Minimize Toggle",
 	Parent = Gui,
-	BackgroundColor3 = E(0, 0, 255),
+	BackgroundColor3 = E(0, 0, 0),
 	BackgroundTransparency = 0.15,
 	Position = F(0, 0, 0.05, 0),
 	Size = F(0, 35, 0, 35),
@@ -379,7 +379,7 @@ local aV = az("Frame", {
 	Name = "TopFrame",
 	Parent = aT,
 	Active = true,
-	BackgroundColor3 = E(75, 0, 0),
+	BackgroundColor3 = E(75, 75, 75),
 	Position = F(0.5, 0, 0.07, 0),
 	AnchorPoint = H(0.5, 0.5),
 	Size = F(0, 475, 0, 20)
@@ -421,7 +421,7 @@ function M:CreateTab(aY, aZ)
 	local a_ = az("Frame", {
 		Name = aY,
 		Parent = aW,
-		BackgroundColor3 = E(15, 15, 220),
+		BackgroundColor3 = E(15, 15, 15),
 		BackgroundTransparency = I and 0 or 0.8,
 		Size = F(0, 125, 0, 40)
 	})
@@ -491,7 +491,7 @@ function M:CreateTab(aY, aZ)
 	local b6 = az("TextLabel", {
 		Name = "Title",
 		Parent = b4,
-		BackgroundColor3 = E(10, 10, 200),
+		BackgroundColor3 = E(10, 10, 10),
 		BackgroundTransparency = 1,
 		Size = F(0, 300, 0, 35),
 		Font = Enum.Font.GothamBold,
@@ -545,13 +545,13 @@ function M:CreateTab(aY, aZ)
 		local bb = az("Frame", {
 			Name = aY,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 150)
 		})
 		local bc = az("TextBox", {
 			Name = "Input",
 			Parent = bb,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			BackgroundTransparency = 1,
 			Position = F(0.5, 0, 0.5, 0),
 			Size = F(0, 300, 0, 150),
@@ -580,7 +580,7 @@ function M:CreateTab(aY, aZ)
 		local bg = az("Frame", {
 			Name = be,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 35),
 			AutomaticSize = Enum.AutomaticSize.Y
 		})
@@ -630,7 +630,7 @@ function M:CreateTab(aY, aZ)
 		local bl = az("Frame", {
 			Name = bk,
 			Parent = b4,
-			BackgroundColor3 = E(10, 10, 200),
+			BackgroundColor3 = E(10, 10, 10),
 			Size = F(0, 300, 0, 35)
 		})
 		local bm = az("ImageButton", {
